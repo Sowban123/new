@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #inpit1 {
+            width: 300px;
+            height: 30px;
+            border: none;
+            background-color: transparent;
+            border-bottom: 1px solid white;
+            color: aliceblue;
+        }
+
+        #inpit2 {
+            width: 300px;
+            height: 30px; 
+            border: none;
+            background-color: transparent;
+            border-bottom: 1px solid white;
+            color: aliceblue;
+
+        }
+        #inpit3 {
+            width: 300px;
+            height: 30px;
+            border: none;
+            background-color: transparent;
+            border-bottom: 1px solid white;
+            color: aliceblue;
+
+        }
+
+        ::placeholder{
+            color: aliceblue;
+        }
+      #box4 {
+            /* text-align: center; */
+            
+            padding-top: 23px;
+        }
+   
+        .box {
+            border: 2px solid rgb(143, 147, 216);
+            border-radius: 10px;
+            height: 500px;
+            width: 450px;
+            padding: 30px 20px 30px 20px;
+            margin: auto;
+            /* background-image: url(https://i.pinimg.com/236x/3e/14/b0/3e14b07eb09f16e66fff93b185a7c0ea.jpg); */
+            background: rgba(0, 0, 0, 0.363);
+
+            color: aliceblue;
+            box-shadow: 0px 10px  90px black;
+        }
+
+        h1 {
+
+            text-align: center;
+        }
+
+        .box1 {
+            text-align: center;
+            padding-top: 30px;
+        }
+        
+        #gen{
+
+           margin-left: 36px; 
+              }
+              #sub{
+                background-color:rgb(245, 235, 235);
+                cursor: pointer;
+                padding: 8px;
+                color: rgb(2, 2, 2);
+                font-size: 18px;
+                width: 300px;
+                border-radius: 10px;
+                border: none;
+              }
+              #sub:hover{
+                color: rgb(241, 229, 229);
+                transition: 0.5s;
+                background-color: rgb(15, 15, 15);
+                border-radius: 10px;
+              }
+            body{
+
+               
+        background-image: url("https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?t=st=1720628410~exp=1720632010~hmac=c4ffecbabd2a5081162374c61826bdb1a1906a4caab71495e7e0dbdf465e3721&w=740");
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position:  center; */
+        
+              }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box">
+            <form action="backend.php">
+                <h1>REGISTRATION FORM</h1>
+                <div class="box1">
+                    NAME: <input id="inpit1" type="text">
+                </div>
+                <br>
+                <div class="box1">
+                    ROLE: <input type="text" id="inpit2">
+
+                </div> <br>
+                <div class="box1">
+                    EMAIL: <input type="email" id="inpit3">
+                </div> <br>
+                <div id="box4" >
+                    <span id="gen">GENDER: </span>MALE:<input type="radio" name="my gender">
+                           FEMALE: <input type="radio" name="my gender">
+                </div> <br>
+
+                <div class="box1" >
+                    <input type="submit" value="SUBMIT" id="sub">
+                </div>
+
+            </form>
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
